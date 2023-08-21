@@ -46,3 +46,23 @@ section.filters button:hover {
 	margin-bottom: 0px;
 	text-align: left;
 }
+.popover {
+	display: none;
+	background-color: #FAFAFA;
+	position: relative;
+	z-index: 1;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+}
+.popover h2 {
+	font-size: 16px;
+}
+li {
+	list-style-type: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.locations:hover .popover,
+.amenities:hover .popover {
+	display: block;
+}
